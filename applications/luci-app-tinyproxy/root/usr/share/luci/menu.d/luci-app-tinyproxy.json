@@ -1,0 +1,12 @@
+{
+	"admin/services/tinyproxy": {
+		"title": "Tinyproxy",
+		"action": {
+			"type": "view",
+			"path": "tinyproxy/tinyproxy"
+		},
+		"depends": {
+			"acl": [ "luci-app-tinyproxy" ]
+		}
+	}
+}
